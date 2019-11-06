@@ -1,0 +1,92 @@
+body{
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: normal;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1,5rem;
+    color: rgb(66, 66, 65);
+}
+
+
+h1{
+    font-size: 3rem;
+    font-weight: bold;
+    line-height: 3rem;
+    color: rgba(66, 54, 136, 0.822);
+}
+
+
+ol{
+    font-style: italic;
+    line-height: 2rem;
+}
+
+
+ul{
+    font-style: italic;
+}
+
+
+a{
+    font-weight: bold;
+    color: rgba(47, 82, 121, 0.61);
+}
+
+
+table{
+    font-style: italic;
+}
+
+
+th{
+    font-size: 2rem;
+    font-weight: bold;
+    line-height: 2rem;
+}
+
+.final-part{
+    font-style: italic;
+}
+
+body{
+    background-color: rgb(240, 237, 252);
+}
+
+div{
+    width: 1200px;
+    padding: 10px;
+    border: 5px ;
+    margin: 0;
+}
+
+.introduction-part {
+    background-color: rgba(237, 218, 253, 0.699);
+    font-weight: bolder;
+    width: 640px;
+    padding: 10px;
+    border: 5px solid rgb(66, 54, 136, 0.822);
+    margin: 0;
+  }
+
+.basic-info-part{
+    display: inline-block;
+    width: 640px;
+    padding: 10px;
+    border: 5px ;
+    margin: 0;
+}
+
+.talking-part{
+    display: inline-block;
+    width: 640px;
+    padding: 10px;
+    border: 5px ;
+    margin: 0;
+}
+
+.final-part{
+    width: 800px;
+    padding: 10px;
+    border: 3px solid rgb(215, 212, 226);
+    margin: 0;
+}
