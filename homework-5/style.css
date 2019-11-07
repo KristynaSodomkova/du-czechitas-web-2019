@@ -1,0 +1,116 @@
+/* nejsme vcerejsi, pouzivame moderni a intuitivni box model */
+html { box-sizing: border-box; }
+*, ::after, ::before { box-sizing: inherit; }
+
+/*
+ BARVY
+ czechitas  #b92e81
+ pozadi     #bdc3c7
+ tmava      #31363b
+ delitka    #3f464d
+ portfolio  #e74c3c
+ facebook   #3b5998
+ twitter    #1da1f2
+*/
+
+
+body {
+    background-color: #bdc3c7;
+    color: #f0eae9d0;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+
+.profil{
+    background-color: #31363b;
+    box-shadow: 5px 10px 8px #888888;
+    display: flex;
+    flex-direction: column;
+    max-width: 250px;
+}
+
+h1{
+    color: seashell;
+    padding-left: 1rem;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-size: 1.3rem;
+}
+
+p{
+    padding-left:1rem;
+    padding-right: 1rem;
+}
+
+.hlavicka{
+    position: relative;
+}
+
+.logo{
+    border-radius: 50%;
+    background-color: rgb(218, 47, 189);
+    position: absolute;
+    top: 140px;
+    right: 20px;
+}
+
+.foto{
+    width: 100%;
+}
+
+.odkazy {
+    background-color: #31363b;
+    padding: 0;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-size: 0.8rem;
+    list-style-type: none;
+    display: flex;
+    flex-flow: row wrap;
+    align-content: center;
+    
+}
+
+
+.odkazy a{
+    color: #f0eae9d0;
+    text-decoration: none;
+    padding: 0.75rem;
+    font-weight: bold;
+}
+
+.portfolio{
+    border-style: solid none solid none;
+    border-width: 0.5px;
+    display: flex;
+    flex-basis: 250px;
+
+}
+
+
+.portfolio:hover{
+    background-color: #e74c3c;
+ }
+
+
+.facebook:hover{
+    background-color: #3b5998;
+ }
+
+
+.twitter{
+    border-style: none none none solid;
+    border-width: 0.5px;
+    display: flex;
+    flex-basis: 125px;
+}
+
+.twitter:hover{
+   background-color: #1da1f2;
+}
+
+.facebook{
+    display: flex;
+    flex-basis: 125px;
+}
